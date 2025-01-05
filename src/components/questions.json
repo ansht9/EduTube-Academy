@@ -1,0 +1,379 @@
+{
+    "PL-gW8Fj5TGrrASCHTylOPrc0nyxug2tVK": [
+      {
+        "question": "What is the main topic of video 1?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 2?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 3?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 4?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 5?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 6?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 7?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 8?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 9?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 1?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 2?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 3?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 4?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 5?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 6?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      }
+    ],
+    "PLbtI3_MArDOn2wYYazc6Q2mzEo-28r1d0": [
+      {
+        "question": "What is the purpose of the `useState` hook in React?",
+        "options": ["To manage side effects in functional components.", "To add state to functional components.", "To optimize component rendering.", "To handle component lifecycle methods."],
+        "correctAnswer": "To add state to functional components."
+      },
+      {
+        "question": "What is the difference between `props` and `state` in React?",
+        "options": ["Props are used to pass data from parent to child, while state is used to manage data within a component.", "Props are used to manage data within a component, while state is used to pass data from parent to child.", "Props and state are interchangeable and serve the same purpose.", "Props are used for styling, while state is used for scripting."],
+        "correctAnswer": "Props are used to pass data from parent to child, while state is used to manage data within a component."
+      },
+      {
+        "question": "What is the purpose of the `useEffect` hook in React?",
+        "options": ["To manage state in functional components.", "To handle side effects in functional components.", "To optimize component rendering.", "To handle component lifecycle methods."],
+        "correctAnswer": "To handle side effects in functional components."
+      },
+      {
+        "question": "What is JSX and why is it used in React?",
+        "options": ["JSX is a syntax extension for JavaScript used to describe the UI in React components.", "JSX is a library for handling HTTP requests in React.", "JSX is a tool for bundling React applications.", "JSX is a framework for testing React components."],
+        "correctAnswer": "JSX is a syntax extension for JavaScript used to describe the UI in React components."
+      },
+      {
+        "question": "How would you create a functional component in React that displays a button with the text 'Click Me'?",
+        "options": [
+          "function ButtonComponent() { return <button>Click Me</button>; }",
+          "const ButtonComponent = () => { return <button>Click Me</button>; }",
+          "class ButtonComponent extends React.Component { render() { return <button>Click Me</button>; } }",
+          "Both A and B"
+        ],
+        "correctAnswer": "Both A and B"
+      },
+      {
+        "question": "How would you use the `useState` hook to manage a counter in a functional component?",
+        "options": [
+          "const [count, setCount] = useState(0);",
+          "const count = useState(0);",
+          "const [count, setCount] = useEffect(0);",
+          "const count = useEffect(0);"
+        ],
+        "correctAnswer": "const [count, setCount] = useState(0);"
+      },
+      {
+        "question": "How would you use the `useEffect` hook to fetch data from an API when the component mounts?",
+        "options": [
+          "useEffect(() => { fetch('api/data').then(response => response.json()).then(data => setData(data)); }, []);",
+          "useEffect(() => { fetch('api/data').then(response => response.json()).then(data => setData(data)); });",
+          "useState(() => { fetch('api/data').then(response => response.json()).then(data => setData(data)); }, []);",
+          "useState(() => { fetch('api/data').then(response => response.json()).then(data => setData(data)); });"
+        ],
+        "correctAnswer": "useEffect(() => { fetch('api/data').then(response => response.json()).then(data => setData(data)); }, []);"
+      },
+      {
+        "question": "How would you pass a function as a prop to a child component in React?",
+        "options": [
+          "<ChildComponent handleClick={this.handleClick} />",
+          "<ChildComponent handleClick={() => this.handleClick()} />",
+          "<ChildComponent handleClick={handleClick} />",
+          "<ChildComponent handleClick={() => handleClick()} />"
+        ],
+        "correctAnswer": "<ChildComponent handleClick={handleClick} />"
+      },
+      {
+        "question": "How would you conditionally render a component based on a state value in React?",
+        "options": [
+          "{isLoggedIn && <LoggedInComponent />}",
+          "{isLoggedIn ? <LoggedInComponent /> : null}",
+          "{if (isLoggedIn) { return <LoggedInComponent />; }}",
+          "{isLoggedIn || <LoggedInComponent />}"
+        ],
+        "correctAnswer": "{isLoggedIn ? <LoggedInComponent /> : null}"
+      }
+    ]
+    ,
+    "PL78RhpUUKSwfYr_bKHq7SWfTCBGad_xxP": [
+      {
+        "question": "Which HTML5 element is used to define a section in a document that is thematically grouped and includes a heading?",
+        "options": ["<div>", "<section>", "<article>", "<header>"],
+        "correctAnswer": "<section>"
+      },
+      {
+        "question": "Explain the difference between <div> and <span> elements in HTML.",
+        "options": ["<div> is a block-level element, while <span> is an inline element.", "<div> is used for styling, while <span> is used for scripting.", "<div> is an inline element, while <span> is a block-level element.", "<div> and <span> are interchangeable and serve the same purpose."],
+        "correctAnswer": "<div> is a block-level element, while <span> is an inline element."
+      },
+      {
+        "question": "What is the correct way to create a hyperlink that opens in a new browser tab?",
+        "options": ["<a href=\"url\" target=\"_new\">Link</a>", "<a href=\"url\" target=\"_blank\">Link</a>", "<a href=\"url\" target=\"new\">Link</a>", "<a href=\"url\" target=\"_tab\">Link</a>"],
+        "correctAnswer": "<a href=\"url\" target=\"_blank\">Link</a>"
+      },
+      {
+        "question": "What is the purpose of the <meta> tag in HTML, and where is it typically placed?",
+        "options": ["The <meta> tag is used to define metadata about the HTML document, such as character set, author, and viewport settings. It is typically placed within the <head> section.", "The <meta> tag is used to create hyperlinks and is placed within the <body> section.", "The <meta> tag is used to embed multimedia content and is placed within the <footer> section.", "The <meta> tag is used to define the structure of the HTML document and is placed within the <article> section."],
+        "correctAnswer": "The <meta> tag is used to define metadata about the HTML document, such as character set, author, and viewport settings. It is typically placed within the <head> section."
+      },
+      {
+        "question": "Which HTML5 attribute is used to specify that an <input> element should be automatically focused when the page loads?",
+        "options": ["autofocus", "focus", "autoload", "loadfocus"],
+        "correctAnswer": "autofocus"
+      }
+    ],    
+    "PLbtI3_MArDOmebicV5NFkhBMRJH8vhBEN": [
+      {
+        "question": "What is the main topic of video 1?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 2?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 3?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 4?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 5?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 6?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 7?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 8?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 9?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 10?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      }
+    ],
+    "PLbtI3_MArDOkXRLxdMt1NOMtCS-84ibHH": [
+      {
+        "question": "What is the main topic of video 1?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 2?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 3?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 4?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 5?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 6?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 7?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 8?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 9?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 10?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 11?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 12?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 13?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 14?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 15?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 16?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 17?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 18?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 19?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 20?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 21?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 22?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 23?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 24?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 25?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 26?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 27?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 28?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      },
+      {
+        "question": "What is the main topic of video 29?",
+        "options": ["Topic 1", "Topic 2", "Topic 3", "Topic 4"],
+        "correctAnswer": "Topic 1"
+      }
+    ]
+  }
+  

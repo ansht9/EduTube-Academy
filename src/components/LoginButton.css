@@ -1,0 +1,66 @@
+/* styles/LoginButton.css */
+.login-section {
+    text-align: center;
+    padding: 20px;
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f0f0f0; /* Light grey background */
+    color: #333; /* Light text color */
+  }
+  
+  .heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold; 
+    margin-bottom: 20px;
+  }
+  
+  
+  .subheading {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .login-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .login-button:hover {
+    background-color: #218838;
+  }
+  
+  .note-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+  }
+  
+  .note-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .note-item .icon {
+    margin-right: 10px;
+  }
+  
+  .note-item span {
+    font-size: 14px;
+    color: WHITE; 
+  }
+  
+  .login-section {
+    background-color: #2d3748;
+  }
